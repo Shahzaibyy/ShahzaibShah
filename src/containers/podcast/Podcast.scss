@@ -23,7 +23,7 @@
   align-items: center;
   min-height: 80vh;
   padding: 2rem;
-  background: linear-gradient(rgba(0,0,0,0.02), rgba(0,0,0,0.05));
+  background: linear-gradient(rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.05));
   border-radius: 20px;
   margin: 0 auto;
   max-width: 1200px;
@@ -38,7 +38,7 @@
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  
+
   &:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
@@ -55,9 +55,9 @@
 .video-container {
   position: relative;
   padding: 20px;
-  
+
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: -10px;
     left: -10px;
@@ -67,9 +67,9 @@
     border-left: 3px solid #007bff;
     border-radius: 8px 0 0 0;
   }
-  
+
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: -10px;
     right: -10px;
@@ -85,24 +85,24 @@
   .podcast-header-title {
     font-size: 36px;
   }
-  
+
   .podcast-header-subtitle {
     font-size: 16px;
   }
-  
+
   .podcast {
     width: 280px;
     height: 498px;
   }
-  
+
   .podcast-main-div {
     padding: 1rem;
     min-height: 70vh;
   }
-  
+
   .video-container {
     padding: 10px;
-    
+
     &::before,
     &::after {
       width: 30px;

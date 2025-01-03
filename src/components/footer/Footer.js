@@ -14,9 +14,7 @@ export default function Footer() {
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           Theme by{" "}
-          <a href="https://github.com/shahzaib512/portfolio512">
-            ShahFolio
-          </a>
+          <a href="https://github.com/shahzaib512/portfolio512">ShahFolio</a>
         </p>
       </div>
     </Fade>

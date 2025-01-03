@@ -8,7 +8,12 @@
 /* Header styling similar to Tailwind */
 .header {
   padding: 16px; /* Tailwind p-4 equivalent */
-  background-color: rgba(255, 255, 255, 0.5); /* Tailwind bg-background/50 equivalent *//* Fixed position for sticky header */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* Tailwind bg-background/50 equivalent */ /* Fixed position for sticky header */
   top: 0;
   width: 100%; /* Full width */
   backdrop-filter: blur(10px); /* Tailwind backdrop-blur equivalent */
@@ -24,7 +29,6 @@
 .dark-menu {
   background-color: $darkBackground !important;
   color: $textColorDark;
-  
 }
 
 .dark-menu li a {

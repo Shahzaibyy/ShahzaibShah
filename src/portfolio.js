@@ -128,13 +128,13 @@ const educationInfo = {
       schoolName: "Army Public School PMA KAKUL",
       logo: require("./assets/images/aps.png"),
       subHeader: "SSC in Computer Science",
-      duration: "January 2015 - April 2017",
+      duration: "January 2015 - April 2017"
     },
     {
       schoolName: "Army Public School PMA KAKUL",
       logo: require("./assets/images/aps.png"),
       subHeader: "HSSC in Computer Science",
-      duration: "March 2017 - April 2019",
+      duration: "March 2017 - April 2019"
     },
     {
       schoolName: "Comsats University Abbottabad",
@@ -142,8 +142,9 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Software Engineering",
       duration: "Graduated in 2023",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["FYP HealthTracker Pro: A Comprehensive Health Monitoring System"
-        ]
+      descBullets: [
+        "FYP HealthTracker Pro: A Comprehensive Health Monitoring System"
+      ]
     }
   ]
 };
@@ -179,16 +180,18 @@ const workExperiences = {
       company: "GlobalCiTECH",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "January 2024 – June 2024",
-      desc: "Worked on the Site Vision Pro project using Django, React, and Google Maps API. Developed RESTful\n" +
+      desc:
+        "Worked on the Site Vision Pro project using Django, React, and Google Maps API. Developed RESTful\n" +
         "APIs, integrated geolocation services, and collaborated with frontend developers for seamless\n" +
-        "integration. Designed database schemas and optimized queries for performance.",
+        "integration. Designed database schemas and optimized queries for performance."
     },
     {
       role: "Python Django Developer",
       company: "Upwork",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "January 2022 – Present",
-      desc: "Developed and deployed Full-Stack web applications with Django, Python, and React, incorporating\n" +
+      desc:
+        "Developed and deployed Full-Stack web applications with Django, Python, and React, incorporating\n" +
         "RESTful APIs and third-party integrations. Conducted web scraping tasks using Selenium and\n" +
         "Scrapy, leveraging Docker for ecient containerization. Managed PostgreSQL databases,\n"
     },
@@ -197,7 +200,8 @@ const workExperiences = {
       company: "OneKode",
       companylogo: require("./assets/images/onekode.png"),
       date: "November 2024 – Present",
-      desc: "Developed scalable and secure RESTful APIs using Django REST Framework, optimizing database interactions with Django ORM for performance and scalability.\n" +
+      desc:
+        "Developed scalable and secure RESTful APIs using Django REST Framework, optimizing database interactions with Django ORM for performance and scalability.\n" +
         "Designed and maintained PostgreSQL databases.\n" +
         "Led collaborative efforts with cross-functional teams to deliver scalable solutions."
     }
@@ -221,7 +225,8 @@ const bigProjects = {
     {
       image: require("./assets/images/SVP.png"),
       projectName: "Global Site Vision Pro",
-      projectDesc: "\n" +
+      projectDesc:
+        "\n" +
         "SiteVision Pro is a user-friendly outdoor augmented reality system that brings data to life so you can visualize and explore complex information with unrivaled accuracy.",
       footerLink: [
         {
@@ -244,7 +249,8 @@ const bigProjects = {
     {
       image: require("./assets/images/Logo 1.png"),
       projectName: "Capstone",
-      projectDesc: "A real estate management system with 4 user roles: super admin, tenant, landlord, and finance.",
+      projectDesc:
+        "A real estate management system with 4 user roles: super admin, tenant, landlord, and finance.",
       footerLink: [
         {
           name: "Learn More",
@@ -255,7 +261,8 @@ const bigProjects = {
     {
       image: require("./assets/images/second.png"),
       projectName: "DroneTrax",
-      projectDesc: "A drone management system with 5 user roles: super admin, company admin, operator, manager.",
+      projectDesc:
+        "A drone management system with 5 user roles: super admin, company admin, operator, manager.",
       footerLink: [
         {
           name: "Learn More",
@@ -286,7 +293,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://www.hackerrank.com/certificates/f0ce23e6c18e"
-        },
+        }
       ]
     },
     {
@@ -306,7 +313,8 @@ const achievementSection = {
 
     {
       title: "Software Engineer Intern",
-      subtitle: "Completed Software Engineer Intern\n" +
+      subtitle:
+        "Completed Software Engineer Intern\n" +
         "It covers topics like Problem solving and SQL.",
       image: require("./assets/images/aws.png"),
       imageAlt: "PWA Logo",
@@ -343,11 +351,11 @@ const blogSection = {
     },
     {
       url: "https://medium.com/@shahzaibshah0028/django-ai-assistant-a-game-changer-for-building-intelligent-applications-d58b2c4b4a3d",
-      title: "My Journey into the World of Programming: A Story of Resilience and Passion",
+      title:
+        "My Journey into the World of Programming: A Story of Resilience and Passion",
       description:
         "The Start of My Journey: From Accountant to Aspiring Programmer"
     }
-
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -356,16 +364,16 @@ const blogSection = {
 
 const talkSection = {
   title: "",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE 😅"
-  ),
+  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE 😅"),
 
   talks: [
     {
       title: "Django ai assistant",
       subtitle: "Django Ai assistant",
-      slides_url: "https://medium.com/@shahzaibshah0028/django-ai-assistant-a-game-changer-for-building-intelligent-applications-d58b2c4b4a3d",
-      event_url: "https://medium.com/@shahzaibshah0028/django-ai-assistant-a-game-changer-for-building-intelligent-applications-d58b2c4b4a3d"
+      slides_url:
+        "https://medium.com/@shahzaibshah0028/django-ai-assistant-a-game-changer-for-building-intelligent-applications-d58b2c4b4a3d",
+      event_url:
+        "https://medium.com/@shahzaibshah0028/django-ai-assistant-a-game-changer-for-building-intelligent-applications-d58b2c4b4a3d"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -377,9 +385,7 @@ const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  podcast: [
-    "https://www.youtube.com/embed/9JR0JeQFuag"
-  ],
+  podcast: ["https://www.youtube.com/embed/9JR0JeQFuag"],
   display: true
 };
 
@@ -406,13 +412,12 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-// Linkdien post 
+// Linkdien post
 export const linkedinDetails = {
   display: true,
   profileUrl: "https://www.linkedin.com/in/shahzaibshah512/",
-  profileId: "7266340797082423296", // Replace with actual post or share ID
+  profileId: "7266340797082423296" // Replace with actual post or share ID
 };
-
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
