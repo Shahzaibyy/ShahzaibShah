@@ -1,0 +1,49 @@
+# Remove the git folder and start fresh
+Remove-Item -Recurse -Force .git
+
+# Create proper .gitignore
+@"
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+"@ | Out-File -FilePath .gitignore -Encoding utf8
+
+# Initialize new repository
+# git init
+
+# # Add all files (except those in .gitignore)
+# git add .
+
+# # Verify what's being committed (make sure .env is not included)
+# git status
+
+# # Make initial commit
+# git commit -m "Initial clean commit"
+
+# # Set the main branch
+# git branch -M main
+
+# # Add remote
+# git remote add origin https://github.com/shahzaib512/ShahzaibShah.git
+
+# # Force push to remote
+# git push -f origin main
