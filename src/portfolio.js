@@ -23,7 +23,7 @@ const greeting = {
   username: "Shah",
   title: "Hi, I'm Shahzaib Hassan",
   subTitle: emoji(
-    "A passionate Full Stack Web Developer 🚀 having an experience of building Web and Mobile applications with Python Django / Reactjs and some other cool libraries and frameworks."
+    "A passionate Full Stack Web Developer 🚀 having an experience of building Web and Mobile applications with Python Django, Fast Api, Flask / Reactjs and some other cool libraries and frameworks."
   ),
   resumeLink: process.env.PUBLIC_URL + "/updated_resume.pdf",
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -199,7 +199,17 @@ const workExperiences = {
       role: "Software Engineer",
       company: "OneKode",
       companylogo: require("./assets/images/onekode.png"),
-      date: "November 2024 – Present",
+      date: "November 2024 – May 2025",
+      desc:
+        "Developed scalable and secure RESTful APIs using Django REST Framework, optimizing database interactions with Django ORM for performance and scalability.\n" +
+        "Designed and maintained PostgreSQL databases.\n" +
+        "Led collaborative efforts with cross-functional teams to deliver scalable solutions."
+    },
+    {
+      role: "Python Developer",
+      company: "DevGate",
+      companylogo: require("./assets/images/picture.jpeg"),
+      date: "May 2025 – Present",
       desc:
         "Developed scalable and secure RESTful APIs using Django REST Framework, optimizing database interactions with Django ORM for performance and scalability.\n" +
         "Designed and maintained PostgreSQL databases.\n" +
