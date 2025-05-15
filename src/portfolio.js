@@ -210,10 +210,15 @@ const workExperiences = {
       company: "DevGate",
       companylogo: require("./assets/images/picture.jpeg"),
       date: "May 2025 – Present",
-      desc:
-        "Developed scalable and secure RESTful APIs using Django REST Framework, optimizing database interactions with Django ORM for performance and scalability.\n" +
-        "Designed and maintained PostgreSQL databases.\n" +
-        "Led collaborative efforts with cross-functional teams to deliver scalable solutions."
+      desc: 
+        "As a Python Developer, I specialize in backend development and DevOps:\n" +
+        "• Developed high-performance APIs using FastAPI and Flask frameworks\n" +
+        "• Worked with various databases including PostgreSQL, MongoDB, and Redis\n" +
+        "• Implemented AI/ML solutions using OpenAI, LangChain, and LlamaIndex\n" +
+        "• Built RAG (Retrieval Augmented Generation) systems for intelligent document processing\n" +
+        "• Managed DevOps workflows using Docker, Kubernetes, and CI/CD pipelines\n" +
+        "• Optimized system performance and implemented scalable microservices architecture\n" +
+        "• Integrated and fine-tuned LLM models for various business applications"
     }
   ]
 };
@@ -235,9 +240,7 @@ const bigProjects = {
     {
       image: require("./assets/images/SVP.png"),
       projectName: "Global Site Vision Pro",
-      projectDesc:
-        "\n" +
-        "SiteVision Pro is a user-friendly outdoor augmented reality system that brings data to life so you can visualize and explore complex information with unrivaled accuracy.",
+      projectDesc: "SiteVision Pro is a user-friendly outdoor augmented reality system that brings data to life so you can visualize and explore complex information with unrivaled accuracy.",
       footerLink: [
         {
           name: "Visit Website",
@@ -350,21 +353,17 @@ const blogSection = {
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
       url: "https://medium.com/@shahzaibshah0028/django-ai-assistant-a-game-changer-for-building-intelligent-applications-d58b2c4b4a3d",
-      title: "Django Ai Assisstant",
-      description:
-        "Django ai assistant for building intelligent applications in Django using ai and RAG."
+      title: "Django AI Assistant",
+      description: "Django AI assistant for building intelligent applications in Django using AI and RAG."
     },
     {
       url: "https://medium.com/@shahzaibshah0028/django-ai-assistant-a-game-changer-for-building-intelligent-applications-d58b2c4b4a3d",
-      title:
-        "My Journey into the World of Programming: A Story of Resilience and Passion",
-      description:
-        "The Start of My Journey: From Accountant to Aspiring Programmer"
+      title: "My Journey into the World of Programming: A Story of Resilience and Passion",
+      description: "The Start of My Journey: From Accountant to Aspiring Programmer"
     }
   ],
   display: true // Set false to hide this section, defaults to true
