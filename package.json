@@ -35,8 +35,8 @@
     "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
-    "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
+    "format": "prettier --write \"**/*.{js,jsx,json,css,scss,md}\"",
+    "check-format": "prettier --check \"**/*.{js,jsx,json,css,scss,md}\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -61,7 +61,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "dotenv": "^8.6.0",
-    "prettier": "^2.3.1",
+    "prettier": "^2.8.8",
     "tailwindcss": "^3.4.10"
   }
 }

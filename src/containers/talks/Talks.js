@@ -1,12 +1,12 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import "./Talks.scss";
 import TalkCard from "../../components/talkCard/TalkCard";
-import {talkSection} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { talkSection } from "../../portfolio";
+import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Talks() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   if (!talkSection.display) {
     return null;
   }
@@ -16,11 +16,7 @@ export default function Talks() {
         <div className="talk-header">
           <h1 className="talk-header-title">{talkSection.title}</h1>
           <p
-            className={
-              isDark
-                ? "dark-mode talk-header-subtitle"
-                : "subTitle talk-header-subtitle"
-            }
+            className={isDark ? "dark-mode talk-header-subtitle" : "subTitle talk-header-subtitle"}
           >
             {talkSection.subtitle}
           </p>

@@ -54,9 +54,7 @@ const skillsSection = {
       "⚡ Develop highly interactive Front end and Backend User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -142,9 +140,7 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Software Engineering",
       duration: "Graduated in 2023",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [
-        "FYP HealthTracker Pro: A Comprehensive Health Monitoring System"
-      ]
+      descBullets: ["FYP HealthTracker Pro: A Comprehensive Health Monitoring System"]
     }
   ]
 };
@@ -210,7 +206,7 @@ const workExperiences = {
       company: "DevGate",
       companylogo: require("./assets/images/picture.jpeg"),
       date: "May 2025 – Present",
-      desc: 
+      desc:
         "As a Python Developer, I specialize in backend development and DevOps:\n" +
         "• Developed high-performance APIs using FastAPI and Flask frameworks\n" +
         "• Worked with various databases including PostgreSQL, MongoDB, and Redis\n" +
@@ -240,7 +236,8 @@ const bigProjects = {
     {
       image: require("./assets/images/SVP.png"),
       projectName: "Global Site Vision Pro",
-      projectDesc: "SiteVision Pro is a user-friendly outdoor augmented reality system that brings data to life so you can visualize and explore complex information with unrivaled accuracy.",
+      projectDesc:
+        "SiteVision Pro is a user-friendly outdoor augmented reality system that brings data to life so you can visualize and explore complex information with unrivaled accuracy.",
       footerLink: [
         {
           name: "Visit Website",
@@ -292,8 +289,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
@@ -327,8 +323,7 @@ const achievementSection = {
     {
       title: "Software Engineer Intern",
       subtitle:
-        "Completed Software Engineer Intern\n" +
-        "It covers topics like Problem solving and SQL.",
+        "Completed Software Engineer Intern\n" + "It covers topics like Problem solving and SQL.",
       image: require("./assets/images/aws.png"),
       imageAlt: "PWA Logo",
       footerLink: [
@@ -353,12 +348,14 @@ const blogSection = {
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      description:
+        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
       url: "https://medium.com/@shahzaibshah0028/django-ai-assistant-a-game-changer-for-building-intelligent-applications-d58b2c4b4a3d",
       title: "Django AI Assistant",
-      description: "Django AI assistant for building intelligent applications in Django using AI and RAG."
+      description:
+        "Django AI assistant for building intelligent applications in Django using AI and RAG."
     },
     {
       url: "https://medium.com/@shahzaibshah0028/django-ai-assistant-a-game-changer-for-building-intelligent-applications-d58b2c4b4a3d",
@@ -408,8 +405,7 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+923099718473",
   email_address: "shahzaibshah0028@gmail.com"
 };

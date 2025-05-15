@@ -1,14 +1,13 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import "./Podcast.scss";
-import {podcastSection} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { podcastSection } from "../../portfolio";
+import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Podcast() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
 
-  if (!podcastSection)
-    console.error("podcastSection object for Podcast section is missing");
+  if (!podcastSection) console.error("podcastSection object for Podcast section is missing");
 
   if (!podcastSection.display) {
     return null;
@@ -20,9 +19,7 @@ export default function Podcast() {
           <h1 className="podcast-header-title">{podcastSection.title}</h1>
           <p
             className={
-              isDark
-                ? "dark-mode podcast-header-subtitle"
-                : "subTitle podcast-header-subtitle"
+              isDark ? "dark-mode podcast-header-subtitle" : "subTitle podcast-header-subtitle"
             }
           >
             {podcastSection.subtitle}
@@ -31,9 +28,7 @@ export default function Podcast() {
         <div className="podcast-main-div">
           {podcastSection.podcast.map((podcastLink, i) => {
             if (!podcastLink) {
-              console.log(
-                `Podcast link for ${podcastSection.title} is missing`
-              );
+              console.log(`Podcast link for ${podcastSection.title} is missing`);
             }
             return (
               <div key={i}>

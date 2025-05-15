@@ -13,11 +13,11 @@
               "name": "moviereviews",
               "description": "🎬 Welcome to FilmCriticPro!  Explore the world of cinema with our cutting-edge movie reviews app. Whether you're a film enthusiast or casual viewer, FilmCriticPro provides a seamless platform to discover, watch, and review the latest movies.",
               "forkCount": 0,
-              "stargazers": {"totalCount": 1},
+              "stargazers": { "totalCount": 1 },
               "url": "https://github.com/shahzaib512/moviereviews",
               "id": "R_kgDOKOb7ag",
               "diskUsage": 8758,
-              "primaryLanguage": {"name": "Python", "color": "#3572A5"}
+              "primaryLanguage": { "name": "Python", "color": "#3572A5" }
             }
           },
           {
@@ -25,11 +25,11 @@
               "name": "social-website-project",
               "description": "Welcome to Bookmarks, a sophisticated social website designed to provide a seamless user experience. With a focus on user engagement and efficiency.",
               "forkCount": 0,
-              "stargazers": {"totalCount": 1},
+              "stargazers": { "totalCount": 1 },
               "url": "https://github.com/shahzaib512/social-website-project",
               "id": "R_kgDOLGFgkQ",
               "diskUsage": 12710,
-              "primaryLanguage": {"name": "Python", "color": "#3572A5"}
+              "primaryLanguage": { "name": "Python", "color": "#3572A5" }
             }
           },
           {
@@ -37,11 +37,11 @@
               "name": "django-ecommerce-advanced",
               "description": "An advanced e-commerce platform built with Django, featuring robust coupon management, seamless Stripe payments, background task processing with RabbitMQ and Celery. Harnessing the power of Redis for efficient caching and lightning-fast recommendations.",
               "forkCount": 0,
-              "stargazers": {"totalCount": 1},
+              "stargazers": { "totalCount": 1 },
               "url": "https://github.com/shahzaib512/django-ecommerce-advanced",
               "id": "R_kgDOLJYgkw",
               "diskUsage": 4284,
-              "primaryLanguage": {"name": "Python", "color": "#3572A5"}
+              "primaryLanguage": { "name": "Python", "color": "#3572A5" }
             }
           },
           {
@@ -49,11 +49,11 @@
               "name": "React-Nextjs-Django-Airbnb",
               "description": "Djangobnb - Fullstack Airbnb clone - Next.js 14 / React, Tailwind, Django, Django Rest Framework",
               "forkCount": 0,
-              "stargazers": {"totalCount": 0},
+              "stargazers": { "totalCount": 0 },
               "url": "https://github.com/shahzaib512/React-Nextjs-Django-Airbnb",
               "id": "R_kgDOMmV0GQ",
               "diskUsage": 49018,
-              "primaryLanguage": {"name": "Python", "color": "#3572A5"}
+              "primaryLanguage": { "name": "Python", "color": "#3572A5" }
             }
           },
           {
@@ -61,11 +61,11 @@
               "name": "Amazon-remote-scraper",
               "description": null,
               "forkCount": 0,
-              "stargazers": {"totalCount": 0},
+              "stargazers": { "totalCount": 0 },
               "url": "https://github.com/shahzaib512/Amazon-remote-scraper",
               "id": "R_kgDOLbGxAg",
               "diskUsage": 20,
-              "primaryLanguage": {"name": "Python", "color": "#3572A5"}
+              "primaryLanguage": { "name": "Python", "color": "#3572A5" }
             }
           },
           {
@@ -73,11 +73,11 @@
               "name": "Student-managemt-System",
               "description": "The Student Management System is a Django-based project designed to manage student records efficiently. It includes CRUD (Create, Read, Update, Delete) API endpoints to perform operations on student data.",
               "forkCount": 0,
-              "stargazers": {"totalCount": 0},
+              "stargazers": { "totalCount": 0 },
               "url": "https://github.com/shahzaib512/Student-managemt-System",
               "id": "R_kgDOMgTOSg",
               "diskUsage": 15609,
-              "primaryLanguage": {"name": "JavaScript", "color": "#f1e05a"}
+              "primaryLanguage": { "name": "JavaScript", "color": "#f1e05a" }
             }
           }
         ]
